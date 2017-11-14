@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 17px;
+	color: #926239;
+	line-height: 1.6; 
+}
+
+#showcase {
+	background-image:url('photo2.jpg');
+	background-size: cover;
+	background-position: center; /*brings to center*/
+	height: 100vh;
+	display:flex; 
+	flex-direction: column; 
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0 20px; /*so when screen is small it has space on side*/
+}
+
+#showcase h1 {
+	font-size: 50px;
+	line-height: 1.2;
+}
+
+#showcase p {
+	font-size: 20px;
+}
+
+#showcase .button {
+	font-size: 18px;
+	text-decoration: none; 
+	color: #926239;
+	border: #926239 1px solid;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+#showcase .button:hover{
+	background: #926239;
+	color: #fff;
+}
+
+section {
+	position: absolute;
+}
+
+ul{
+	list-style: none;
+	margin:0 ;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul li a, ul.nav li a:visited {
+    color: #A4E869; //yellow-lime
+}
+
+ul li a:hover, ul.nav li a:active {
+    color: #38c5fc; //logo-blue
+}
+
+ul li.active a {
+    color: #926239; //light-brown
+}
+
+.active1 {
+	color: #926239; //light brown
+}
+
+.active2 {
+	color: #926239; //light brown
+}
+
+.active3 {
+	color: #926239; //light brown
+}
+
